@@ -1,9 +1,9 @@
 {
   "scripts": {
     "prebuild": "npm run index",
-    "index": "node ./docs/indexing/index.js",
+    "index": "node ./plugins/search/indexing/index.js",
     "dev": "vitepress dev docs",
-    "build": "npm run index && vitepress build docs && npm run index && vitepress build docs",
+    "build": "npm run index && vitepress build docs && npm run index && vitepress build docs && rm -Rf docs/node_modules",
     "serve": "vitepress serve docs"
   },
   "dependencies": {

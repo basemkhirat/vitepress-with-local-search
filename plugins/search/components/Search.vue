@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { useData } from "vitepress";
 import { ref, onMounted, onUnmounted, computed } from "vue";
-import data from "../../lunr_index.js";
+import data from "../../../lunr_index.js";
 import lunr from "../indexing/lunr-esm";
 const { theme, localePath } = useData();
 
@@ -301,7 +301,7 @@ html.dark {
 	bottom: 0;
 	background: #545454b3;
 	position: fixed;
-	z-index: 20;
+	z-index: 40;
 }
 
 .dark .modal {
