@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "prebuild": "npm run index",
+    "index": "node ./docs/indexing/index.js",
+    "dev": "vitepress dev docs",
+    "build": "npm run index && vitepress build docs && npm run index && vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "vitepress": "^1.0.0-alpha.5"
+  },
+  "devDependencies": {
+    "sass": "^1.54.5"
+  }
+}
