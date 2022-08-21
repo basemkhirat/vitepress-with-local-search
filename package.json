@@ -1,4 +1,5 @@
 {
+  "license": "MIT",
   "scripts": {
     "prebuild": "npm run index",
     "index": "node ./plugins/search/indexing/index.js",
