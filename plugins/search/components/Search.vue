@@ -216,6 +216,10 @@ html.dark {
 	--docsearch-grey-color: rgb(78, 78, 78);
 }
 
+.VPNavBarMenu {
+	margin-left: auto;
+}
+
 .VPNavBar .container .content {
 	justify-content: space-between;
 	padding-left: 32px;
