@@ -6,13 +6,13 @@
 yarn install
 ```
 
-Install dependencies:
+## Development
 
 ```bash
 yarn dev
 ```
 
-## Production build
+## Production
 
 ```bash
 yarn build
